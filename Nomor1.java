@@ -1,6 +1,8 @@
-public class Nomor1{
-    public static void main(String[] args){
- Scanner scanner = new Scanner(System.in);
+import java.util.Scanner;
+
+    public class HitungHonorLembur {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
 
             int totalJamLembur = 0;  
             double honorLembur = 10.000, tambahanLembur = 0, SisaJamLembur = 15000;
@@ -20,5 +22,5 @@ public class Nomor1{
             System.out.println("Honor Lembur: " + honorLembur);
             
             scanner.close();
-    }
-}
+     }
+   }
